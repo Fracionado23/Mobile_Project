@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/almendra_display</item>
+        <item>@font/arimo_bold_italic</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bilbo_swash_caps</item>
+    </array>
+</resources>
