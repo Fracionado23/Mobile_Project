@@ -45,7 +45,8 @@ public class StatActivity extends AppCompatActivity {
         //Дополнительный круг в центре
         pieChart.setTransparentCircleRadius(60f);
         ArrayList<PieEntry> yValues = new ArrayList<>();
-        //Если значение по какой-либо категории
+        //Если значение по какой-либо категории равно 0, то
+        //значени в диаграмме не отображается
         if(car_res != 0) {
             yValues.add(new PieEntry(car_res, "Авто"));
         }
