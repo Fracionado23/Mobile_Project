@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Financier</string>
+    <string name="app_name">Expence&amp;Income</string>
     <string name="car">TODO</string>
-    <string name="title">"My Financier"</string>
+    <string name="title">"Expence&amp;Income"</string>
     <string name="home">TODO</string>
     <string name="com">TODO</string>
     <string name="health">TODO</string>
@@ -16,24 +16,5 @@
     <string name="plus">TODO</string>
     <string name="minus">TODO</string>
     <string name="Баланс">Баланс 0,00 руб.</string>
-    <string name="title_activity_second">SecondActivity</string>
-    <string name="buttonback">TODO</string>
-    <string name="New">Новый доход</string>
-    <string name="zero">0</string>
-    <string name="text">Добавьте заметку</string>
-    <string name="number_1">1</string>
-    <string name="number_3">3</string>
-    <string name="number_2">2</string>
-    <string name="number_4">4</string>
-    <string name="number_5">5</string>
-    <string name="number_6">6</string>
-    <string name="number_7">7</string>
-    <string name="number_8">8</string>
-    <string name="number_9">9</string>
-    <string name="number_0">0</string>
-    <string name="number_000">000</string>
-    <string name="back">TODO</string>
-    <string name="texttest">TextTest</string>
-    <string name="diagramm">TODO</string>
-    <string name="Add">Добавить</string>
+
 </resources>

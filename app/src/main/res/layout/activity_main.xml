@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/Main"
+    android:background="@color/MainBackgorund"
     >
 
     <ImageButton
@@ -228,14 +228,13 @@
 
     <ImageButton
         android:id="@+id/btn_add_income"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
         android:layout_marginTop="164dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
         android:background="#00000000"
-        android:contentDescription="@string/plus"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -243,14 +242,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_view"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@drawable/plus" />
+        app:srcCompat="@drawable/plus"
+        android:contentDescription="@string/plus" />
 
     <ImageButton
         android:id="@+id/btn_add_con"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="164dp"
         android:layout_marginBottom="32dp"
         android:background="#00000000"
@@ -266,8 +266,8 @@
 
     <Button
         android:id="@+id/btn_look"
-        android:layout_width="350dp"
-        android:layout_height="59dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="127dp"
@@ -275,61 +275,23 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="192dp"
         android:text="@string/Баланс"
-        android:textSize="28sp"
-        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_sport" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sport"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#F8000000"
+        android:textColor="#F8FFFFFF"
         android:textSize="28sp"
-        app:fontFamily="@font/berkshire_swash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
-    <ImageButton
-        android:id="@+id/diagram"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="32dp"
-        android:background="#00000000"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/btn_look"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445"
-        app:srcCompat="@drawable/diagramm"
-        android:contentDescription="@string/diagramm" />
-
-    <TextView
-        android:id="@+id/dateandtime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/btn_look"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diagram"
-        app:layout_constraintVertical_bias="0.73" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/btn_look"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diagram"
-        app:layout_constraintVertical_bias="0.93" />
 </androidx.constraintlayout.widget.ConstraintLayout>
